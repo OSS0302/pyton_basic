@@ -22,7 +22,7 @@
 # print(b[1:4])# 인덱스 1 ~3까지 
 # # 데이터 길이
 # print(len(b))
-# # 리스트 정렬
+# # 리스트 정렬 
 # print(b)
 # b.sort()
 # print(b)
