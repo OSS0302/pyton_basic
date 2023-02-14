@@ -13,3 +13,10 @@ rnak = 'vip'
 acount = 193303040506
 email = "kim192@naver.com"
 print(name, rank, acount,email)
+
+# 변수 이름 데이터 연습하기 
+name = "김의준";
+rank = "vip"
+acount =1945120423
+email="jun@gmail.com"
+print(name,rnak,acount,email)
