@@ -3,12 +3,13 @@
 # 기회는 5번 계속하다가 맞히면 정답입니다. 입력한 숫자는 n입니다 를 출력한다.
 
 import random
+chance = int(input("기회를 입력해주세요"))
 ramdom_num = random.randint(1,100)
 print(ramdom_num)
-
-for i in range(1,6):
+count = 0
+for i in range(1,chance+1):
     user  = int(input("숫자를 맞혀주세요"))
-    
+    count+=1
     if ramdom_num == user:
         print(f"정답입니다입력한 숫자는{ramdom_num}입니다.")
         break
