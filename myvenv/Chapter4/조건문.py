@@ -3,10 +3,12 @@
 
 PassWord = "1234" # 패스워드
 
-user= input("비밀번호를 입력하세요>>>>")
-if PassWord == user:
+user_input= input("비밀번호를 입력하세요>>>>")
+if PassWord == user_input:
     print("로그인성공")
-elif(user == ""):
+elif(user_input == ""):
     print("아무것도입력하지 않았습니다.")
+
 else:
     print("로그인 실패 비밀번호를 다시입력해주세요")
+
